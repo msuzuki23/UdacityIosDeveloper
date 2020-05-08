@@ -21,7 +21,7 @@ extension Map {
             }
             return
         } else if (method == "getAllLocations") {
-            urlString += "?limit=50"  // Fixed uniqueKey used as accountKey changes randomly
+            urlString += "?-updatedAt"  // Fixed uniqueKey used as accountKey changes randomly
             return
         }
     }
