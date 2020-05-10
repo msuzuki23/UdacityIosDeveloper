@@ -26,7 +26,8 @@ class DataController {
             guard error == nil else {
                 fatalError(error!.localizedDescription)
             }
-        completion?()
+            
+            completion?()
         }
     }
 }

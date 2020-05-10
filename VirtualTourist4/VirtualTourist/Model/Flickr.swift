@@ -76,7 +76,7 @@ extension Flickr {
                                             , photoData.farm).url)
         let task = URLSession.shared.dataTask(with: request) {data, response, error in
             // GUARD: Check for Errors
-            guard (error == nil) else {
+            guard error == nil else {
                 completion(nil, "\(error!)")
                 return
             }

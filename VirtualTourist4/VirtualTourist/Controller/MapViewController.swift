@@ -81,8 +81,8 @@ extension MapViewController {
 // MARK: - Method createPins
 extension MapViewController {
     func createPins() {
-        for p in pins {
-            createPin(p)
+        for pin in pins {
+            createPin(pin)
         }
         mapView.addAnnotations(annotations)
     }

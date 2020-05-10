@@ -10,7 +10,6 @@ import Foundation
 
 struct FlickrData: Codable {
     let photos: FlickrPhotos?
-    //let stat: String
 }
 
 struct FlickrPhotos: Codable{
